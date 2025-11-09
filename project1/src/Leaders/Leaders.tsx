@@ -31,7 +31,7 @@ const Leaders = ({ dark }) => {
       <SearchLeaders/>
       <KarmaBarChart dark={dark}/>
       {sortByDropdown(isAscending, sortField, setSortField, setIsAscending, type)}
-      <Paginate items={leaders} itemsPerPage={10} type={"leaders"}/> //Paginated list of leaders
+      <Paginate items={leaders} itemsPerPage={10} type={"leaders"}/> 
     </div>
   );
 };

@@ -37,7 +37,7 @@ function StoryCard({ storyType }) {
           setIsAscending,
           type
         )}
-      <Paginate items={stories} itemsPerPage={5} type={"stories"}/> //Paginated list of stories
+      <Paginate items={stories} itemsPerPage={5} type={"stories"}/> 
       </div>
     </div>
   );
